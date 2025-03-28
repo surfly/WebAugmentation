@@ -6,7 +6,7 @@ slug: webfuse-technical-whitepaper
 ---
 # Webfuse Technical Whitepaper
 
-## 
+##
 
 [Introduction	4](#introduction4)
 [Background & Challenges	5](#backgroundchallenges5)
@@ -301,7 +301,8 @@ This randomized domain mapping has significant implications:
 
 ```
 ? Use-Case: Preventing Tracking & Fingerprinting in Embedded Content
-Web-based email clients often display external content, such as articles, product previews, or documents, within their interface. However, clicking on an external link exposes users to tracking mechanisms, allowing third-party sites to collect cookies, fingerprint devices, and link user activity back to their email identity.
+
+Web-based email clients often display external content, such as articles, product previews, or documents, within their interface. However, clicking on an external link exposes users to tracking mechanisms, allowing third-party sites to collect cookies, fingerprint devices, and link user activity back to their email identity.
 
 With Webfuse?s Randomized Domain Mapping, email providers can open external content in a fully isolated session, ensuring: No tracking persistence ? Cookies, local storage, and session data are cleared per session. No fingerprinting ? Every session appears as a new, unrelated user to the destination site. Anonymous link tracking ? Websites cannot associate multiple visits to the same user.
 
@@ -440,7 +441,9 @@ The platform can be optionally configured  so that authentication cookies (HTTPo
 ```
 ? Use-case: Prevent Session Hijacking & Session Cookie Theft
 Logging into sensitive web applications (e.g., banking portals, enterprise dashboards, or government services) from untrusted devices?such as hotel business centers, public libraries, or internet caf?s?poses a serious security risk. Even with HTTPS encryption, session hijacking remains a threat due to:
-Malware & Keyloggers ? Capturing login credentials and authentication tokens.Cookie Theft ? Attackers extracting session cookies to impersonate users remotely.Man-in-the-Middle (MitM) Attacks ? Intercepting authentication data over public Wi-Fi.
+Malware & Keyloggers ? Capturing login credentials and authentication tokens.
+Cookie Theft ? Attackers extracting session cookies to impersonate users remotely.
+Man-in-the-Middle (MitM) Attacks ? Intercepting authentication data over public Wi-Fi.
 Once an attacker steals an authentication cookie, they can reuse it to gain unauthorized access?often without triggering additional authentication checks.With Webfuse?s Virtual Web Sessions & Cookie Guard, users can securely access sensitive web applications from untrusted devices without exposing persistent session cookies to threats. As authentication cookies are encrypted and tied exclusively to the Webfuse session. Once the Webfuse session ends, all session cookies become invalid. Even if an attacker extracts the cookie, they cannot replay it on another machine.
 How it works with Webfuse:
 Create a Webfuse SPACE and enable Cookie Guard
