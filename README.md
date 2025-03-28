@@ -1,12 +1,9 @@
 # Web Augmentation: Taking Back Control of the Internet
 
-## TL;DR
-
-Web Augmentation is a new paradigm that lets developers modify, automate, and share any web application—without access to its code. It creates a programmable overlay on top of the existing web. In this post, we explore how the web became closed, how Web Augmentation re-opens it, and why it’s vital for the age of agentic AI.
-
+> [!NOTE]
+> **TL;DR** Web Augmentation is a new paradigm that lets developers modify, automate, and share any web application—without access to its code. It creates a programmable overlay on top of the existing web. In this post, we explore how the web became closed, how Web Augmentation re-opens it, and why it’s vital for the age of agentic AI. 
 👉 [Read the Webfuse Whitepaper](#)
 
----
 
 ## Introduction: The Web Wasn’t Meant to Be This Way
 
@@ -14,7 +11,6 @@ The early web was open, remixable, and transparent. You could view source, copy 
 
 But what if we could reclaim control?
 
----
 
 ## The Problem: A Web You Can't Touch
 
@@ -39,7 +35,6 @@ Meanwhile, the internet is fracturing:
 
 We’re using the web, but we don’t control it.
 
----
 
 ## Enter Web Augmentation
 
@@ -58,7 +53,7 @@ It gives developers the power to:
 
 The core idea: Treat the web as a *canvas*, not a fixed product.
 
----
+
 
 ## How It Works (at a Glance)
 
@@ -80,3 +75,37 @@ session.openTab("https://github.com");
 // Automate user behavior
 await automation.moveMouse(200, 300);
 await automation.click("#submit-button");
+```
+
+## Why Now: Agentic AI Needs Programmable Interfaces
+
+LLMs like GPT-4, Claude, and Gemini are evolving into agents.
+But the web is still built for humans. Agentic actions fail when:
+
+- DOMs are dynamic
+- Sites are behind logins
+- Flows require visual context
+- No API exists
+
+Web Augmentation turns any app into a programmable surface. Agents can:
+
+- Navigate visual flows
+- Switch tabs, click buttons, type
+- Share sessions with humans for hand-off
+
+
+## Toward a More Open Web
+
+The internet shouldn’t be static.
+It shouldn’t be locked down.
+And it shouldn’t be dictated by the whims of browsers, CDNs, or geopolitics.
+
+Web Augmentation gives developers and users a way to remix the web without waiting for permission.
+
+
+## Call to Action
+
+Curious? Skeptical? Inspired?
+
+🧠 Read the full Webfuse Whitepaper
+🚀 Join our early access list
